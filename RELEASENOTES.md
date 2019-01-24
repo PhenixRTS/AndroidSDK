@@ -2,9 +2,9 @@
 
 ### 2019.0.0 ###
 #### Fixes
--Publisher bitrate limitation reason will remain “None” and no longer be set to “PublisherLimited” while recovering from bitrate override
--Normal app termination/exit will no longer trigger sporadic exceptions
--App will no longer crash if we are unable to leave a room while the RoomService is being finalized
+- Publisher bitrate limitation reason will remain “None” and no longer be set to “PublisherLimited” while recovering from bitrate override
+- Normal app termination/exit will no longer trigger sporadic exceptions
+- App will no longer crash if we are unable to leave a room while the RoomService is being finalized
 
 ### 2018.4.3 ###
 #### Features/Improvements
