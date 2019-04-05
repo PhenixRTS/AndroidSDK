@@ -1,12 +1,15 @@
 # Release notes
 
 ### 2019.2.0 ###
-#### Features/Improvements
-- AEC integration
 #### Fixes
 - Fix crash during ICE server registration
 - Safe creation of an empty renderer from an already stopped ExpressSubscriber 
 - Publisher side frame-ready API: Drops frames when overloaded instead of falling behind
+
+#### Features/Improvements
+- Audio Echo Cancelation is now available on Android. 
+
+**Note:** AEC needs to be enabled in the RendererOptions in addition to UserMediaOptions. See documentation for more details.
 
 
 ### 2019.0.0 ###
