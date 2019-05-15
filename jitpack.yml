@@ -7,3 +7,4 @@ install:
     -DartifactId="phenix-sdk" \
     -Dversion="2019.2.0" \
     -Dpackaging="aar"
+    
