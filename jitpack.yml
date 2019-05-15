@@ -4,6 +4,6 @@ install:
     -Dfile="phenix-sdk.aar" \
     -Djavadoc="phenix-sdk-javadoc.jar" \
     -DgroupId="com.github.IMarchuk" \
-    -DartifactId="mylib" \
+    -DartifactId="phenix-sdk" \
     -Dversion="2019.2.0" \
     -Dpackaging="aar"
