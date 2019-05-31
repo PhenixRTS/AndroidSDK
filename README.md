@@ -21,6 +21,10 @@ dependencies {
 ```
 
 ## Known issues
+### Package `com.phenixrts.*` doesn't exist
+`phenix-sdk.aar` should be more than 80MB, in other cases please check git-lfs installation.
+Try `#> git lfs pull`.
+
 ### Build crash: java.io.IOException: Failed to find byte code for …
 Android Studio issue: https://issuetracker.google.com/issues/76403146
 **Solution:**
@@ -33,5 +37,5 @@ Or Disable instant run - Android Studio -> Settings -> Search Instant run -> Dis
 Android Studio issue: https://issuetracker.google.com/issues/77939622
 **Solution:** If directory for module was created (e.g. `/phenix-sdk`), just add direcory name to _settings.gradle_ file.
 ```gradle
-include ':app', ':phenix-sdk', ':phenix-utils', ':phenix-ui'
+include ':app', ':phenix-sdk'
 ```
