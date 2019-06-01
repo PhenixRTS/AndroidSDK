@@ -22,7 +22,7 @@ dependencies {
 
 ## Known issues
 ### Package `com.phenixrts.*` doesn't exist
-`phenix-sdk.aar` should be more than 80MB, in other cases please check git-lfs installation.
+Verify that `phenix-sdk.aar` has a reasonably size (> 80MB), otherwise check your `git-lfs` installation.
 Try `#> git lfs pull`.
 
 ### Build crash: java.io.IOException: Failed to find byte code for …
