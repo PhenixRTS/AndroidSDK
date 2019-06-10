@@ -1,5 +1,20 @@
 # Release notes
 
+### 2019.2.1 ###
+#### Features/Improvements
+- Lag render statistic via `Renderer.getStats`/`PhenixRenderer.stats`
+- Reduced SDK initialization times
+- Improved layer switching strategy for MBR streams
+- Improved reconnection logic for clients with network outages
+#### Fixes
+- Fixed memory leak on stop publishing
+- Fixed rebuffering telemetry metric
+- Fixed rare crash when backgrounding app
+- Fixed crash when attempting to subscribe while SDK is being shut down
+- Fixed horn-like sound artifact when app returns to foreground
+- Fixed resource leak in video rendering code
+
+
 ### 2019.2.0 ###
 #### Fixes
 - Fix crash during ICE server registration
