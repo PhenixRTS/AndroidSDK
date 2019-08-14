@@ -1,10 +1,9 @@
 # Release notes
 
 ### 2019.2.2 ###
-#### Features/Improvements
-- Fix of `audio-only` capability based use-case
 #### Fixes
-- 
+- Room participants will no longer leave zombie sessions around when reauthenticating
+- Fixed `audio-only` for cases where wildcard tokens are present for channel viewers
 
 
 ### 2019.2.1 ###
