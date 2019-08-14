@@ -1,5 +1,12 @@
 # Release notes
 
+### 2019.2.2 ###
+#### Features/Improvements
+- Fix of `audio-only` capability based use-case
+#### Fixes
+- 
+
+
 ### 2019.2.1 ###
 #### Features/Improvements
 - Lag render statistic via `Renderer.getStats`/`PhenixRenderer.stats`
