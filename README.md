@@ -22,8 +22,8 @@ dependencies {
 
 ## Known issues
 ### Package `com.phenixrts.*` doesn't exist
-Verify that `phenix-sdk.aar` has a reasonably size (> 80MB), otherwise check your `git-lfs` installation.
-Try `#> git lfs pull`.
+Verify that `phenix-sdk.aar` has a reasonably large size (> 80MB), otherwise check your `git-lfs` installation.
+Try `#> git lfs install` and then cloning the AndroidSDK repository again.
 
 ### Build crash: java.io.IOException: Failed to find byte code for …
 Android Studio issue: https://issuetracker.google.com/issues/76403146
