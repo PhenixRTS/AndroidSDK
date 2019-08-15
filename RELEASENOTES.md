@@ -1,5 +1,11 @@
 # Release notes
 
+### 2019.2.2 ###
+#### Fixes
+- Room participants will no longer leave zombie sessions around when reauthenticating
+- Fixed `audio-only` for cases where wildcard tokens are present for channel viewers
+
+
 ### 2019.2.1 ###
 #### Features/Improvements
 - Lag render statistic via `Renderer.getStats`/`PhenixRenderer.stats`
