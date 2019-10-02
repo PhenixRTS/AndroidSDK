@@ -11,7 +11,8 @@ githubUser=<Github user name>
 githubPackageToken=<Github personal token with read:packages permission>
 ```
 Token can be created in: https://github.com/settings/tokens
-See official page for details: https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
+See official page for [details](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
+
 2) Add repository to your `app/build.gradle` or `project/build.gradle/allProjects`
 ```
 repositories {
