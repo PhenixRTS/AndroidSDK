@@ -1,5 +1,19 @@
 # Release notes
 
+### 2019.2.3 ###
+#### Features/Improvements
+- Support for edge authentication tokens
+- Added playout delay override API.
+- Argument-less `withRenderer` API on various options builders has been deprecated. Use `withAudioOnlyRenderer` instead.
+- `close()` API on SDK objects has been deprecated. Use `dispose()` instead, which does not declare an explicit exception, and is, therefore, easier to use.
+- MIPS architectures are removed.
+- Now available as Gradle dependency. See Readme.md for details.
+
+#### Fixes
+- Room or channel service automatically re-joins after a network disruption
+- Fix ScreenGrabber crashes on SecurityException on Android 6+
+
+
 ### 2019.2.2 ###
 #### Fixes
 - Room participants will no longer leave zombie sessions around when reauthenticating
