@@ -53,6 +53,10 @@ dependencies {
 
 ## Known issues
 
+### Crash on Android 10 devices with x64 arch
+Please downgrade your `compileSdkVersion` to <= `28`. 
+It is temporary workaround for the known issue. We are looking for solution.
+
 ### ERROR: Unable to resolve dependency for ':app@debug/compileClasspath': Could not resolve com.phenixrts.android:phenix-sdk-android:*.
 
 1) Check Phenix SDK version
