@@ -53,9 +53,9 @@ dependencies {
 
 ## Known issues
 
-### Crash on Android 10 devices with x64 arch
-The crash occurs when the `compileSdkVersion` is set to `29`, the temporary workaround is to set `compileSdkVersion` to <= 28.
-Phenix has a permanent fix in development and will release after final testing and validation.
+### Crash on Android 10 devices with arm64v8 arch
+The crash occurs during initialisation call when the `compileSdkVersion` is set to `29`. The temporary workaround is set it to <= 28.
+We testing fix for that and will release it after validation.
 
 ### ERROR: Unable to resolve dependency for ':app@debug/compileClasspath': Could not resolve com.phenixrts.android:phenix-sdk-android:*.
 
