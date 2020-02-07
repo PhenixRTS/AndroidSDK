@@ -1,5 +1,19 @@
 # Release notes
 
+### 2020.0.0 ###
+#### Features/Improvements
+- Introduced stream ended observables to MediaStream and Publisher, allowing for multiple subscribers
+- The Publisher will now stop itself and forward the reason to the stream ended observables when the underlying stream ends
+- `PCastExpress.publish` will now accept publish options with both a user media stream and constraints specified
+
+#### Fixes
+- Fixed video failing to render as a result of `Surface` lifecycle changes
+- Fixed crash when network type changes during SDK initialization
+- Fixed crash when calling `getUserMedia()` with both audio and video disabled
+- The SDK will more reliably reconnect when a network connection is reestablished
+- `Observable.subscribe()` now takes an `OnChangedHandler<T>` instead of `OnChangedHandler<Object>`. As a result, callback handlers need to implement `onEvent(T change)` instead of `onEvent(Object change)`.
+
+
 ### 2019.2.3 ###
 #### Features/Improvements
 - Support for edge authentication tokens

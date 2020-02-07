@@ -11,8 +11,7 @@ githubUser=<Github user name>
 githubPackageToken=<Github personal token with read:packages permission>
 ```
 Token can be created in: https://github.com/settings/tokens
-See official page for [details](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
-
+See official page for details: https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
 2) Add repository to your `app/build.gradle` or `project/build.gradle/allProjects`
 ```
 repositories {
@@ -52,11 +51,6 @@ dependencies {
 ```
 
 ## Known issues
-
-### Crash on Android 10 devices with arm64v8 arch
-The crash occurs during SDK initialization when the `compileSdkVersion` is set to 29. The temporary workaround is to set `compileSdkVersion` to <= 28.
-
-Phenix has a permanent fix in development, which will be released after final testing and validation.
 
 ### ERROR: Unable to resolve dependency for ':app@debug/compileClasspath': Could not resolve com.phenixrts.android:phenix-sdk-android:*.
 
