@@ -7,18 +7,20 @@ Please check [official Android documentation](https://developer.android.com/stud
 ### As Gradle dependency (recommended)
 1) Add to your `~/.gradle/gradle.properties`
 ```
-githubUser=<Github user name>
-githubPackageToken=<Github personal token with read:packages permission>
+github.user=<Github user name>
+github.token=<Github personal token with read:packages permission>
 ```
 Token can be created in: https://github.com/settings/tokens
 See official page for details: https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
+
 2) Add repository to your `app/build.gradle` or `project/build.gradle/allProjects`
 ```
 repositories {
+   mavenCentral()
    maven {
        credentials {
-           username githubUser
-           password githubPackageToken
+           username project.findProperty("github.user") as String
+           password project.findProperty("github.token") as String
        }
        url "https://maven.pkg.github.com/PhenixRTS/AndroidSDK"
    }
@@ -28,7 +30,7 @@ repositories {
 ```
 dependencies {
    // For the latest version please check https://github.com/PhenixRTS/AndroidSDK/packages/23358
-   implementation "com.phenixrts.android:phenix-sdk-android:<version>"
+   implementation "com.phenixrts.android:phenix-sdk-android:2021.0.15"
 }
 ```
 
