@@ -30,7 +30,7 @@ repositories {
 ```
 dependencies {
    // For the latest version please check https://github.com/PhenixRTS/AndroidSDK/packages/23358
-   implementation "com.phenixrts.android:phenix-sdk-android:2021.0.15"
+   implementation "com.phenixrts.android:phenix-sdk-android:2022.0.1"
 }
 ```
 

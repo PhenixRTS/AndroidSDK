@@ -1,5 +1,19 @@
 # Release notes
 
+### 2022.0.1 ###
+#### Features/Improvements
+
+- Added support for CDN domains.
+- Improved PhenixPCastExpressFactory: it is not necessary anymore to provide a PCastUri if it is included in the token.
+- Reduced network usage when downloading stream replay segments.
+- Improved channel joining: it is not necessary anymore to provide a channel alias or ID if it is included in the token.
+
+#### Fixes
+
+- Fixed chat room’s messages loss in case of network issues.
+- Fixed late PhenixChannelExpress.joinChannel callback call in case of network issues.
+- Fixed media sometimes not starting on some devices
+
 ### 2021.0.15 ###
 #### Features/Improvements
 - Timeshift API
