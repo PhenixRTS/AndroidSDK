@@ -1,5 +1,12 @@
 # Release notes
 
+### 2022.0.3 ###
+#### Features/Improvements
+
+- Added support for CDN domains with Replay v2.
+
+#### Fixes
+
 ### 2022.0.2 ###
 #### Features/Improvements
 
@@ -8,7 +15,6 @@
 ### 2022.0.1 ###
 #### Features/Improvements
 
-- Added support for CDN domains.
 - Improved PhenixPCastExpressFactory: it is not necessary anymore to provide a PCastUri if it is included in the token.
 - Reduced network usage when downloading stream replay segments.
 - Improved channel joining: it is not necessary anymore to provide a channel alias or ID if it is included in the token.
@@ -107,11 +113,11 @@
 ### 2019.2.0 ###
 #### Fixes
 - Fix crash during ICE server registration
-- Safe creation of an empty renderer from an already stopped ExpressSubscriber 
+- Safe creation of an empty renderer from an already stopped ExpressSubscriber
 - Publisher side frame-ready API: Drops frames when overloaded instead of falling behind
 
 #### Features/Improvements
-- Audio Echo Cancelation is now available on Android. 
+- Audio Echo Cancelation is now available on Android.
 
 **Note:** AEC needs to be enabled in the RendererOptions in addition to UserMediaOptions. See documentation for more details.
 
