@@ -1,7 +1,7 @@
 # Phenix Android SDK
 
 ## Latest release version
-The latest release version of the Phenix Android SDK is 2022.0.3
+The [official Phenix documentation](https://phenixrts.com/docs/sdk_ref/android/release-notes/) shows the latest released version of the Phenix Android SDK.
 
 ## Integration
 The Phenix SDK is provided as a standard Android library module in form of an .aar file.
