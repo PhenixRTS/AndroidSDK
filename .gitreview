@@ -1,0 +1,6 @@
+[gerrit]
+host=gerrit.phenixrts.com
+port=29418
+project=AndroidSDK
+defaultbranch=master
+defaultrebase=0
