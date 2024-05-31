@@ -33,7 +33,7 @@ repositories {
 ```
 dependencies {
    // For the latest version please check https://github.com/PhenixRTS/AndroidSDK/packages/23358
-   implementation "com.phenixrts.android:phenix-sdk-android:2022.0.2"
+   implementation "com.phenixrts.android:phenix-sdk-android:2024.2.0"
 }
 ```
 
@@ -82,3 +82,20 @@ Android Studio issue: https://issuetracker.google.com/issues/77939622
 ```gradle
 include ':app', ':phenix-sdk'
 ```
+
+# Modules
+
+Additional modules are available to extend the functionality provided by the PhenixSDK. Available modules:
+
+* The `phenix-sdk-nielsen-android` module aids in integrating a Phenix stream with the Nielsen App SDK for viewership tracking.
+
+To add a module to your project, follow the instructions [above](#integration) to add the Phenix SDK, then add the dependency for the Nielsen integration module:
+```
+dependencies {
+    implementation "com.phenixrts.android:<modulename>:2024.2.0"
+    ....
+}
+```
+
+The main Phenix SDK and the modules are always released together and have the same version number. Mixing different versions between the main SDK and modules is discouraged.
+
